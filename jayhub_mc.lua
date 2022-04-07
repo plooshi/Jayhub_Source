@@ -40,7 +40,7 @@ Utils:SetupCompatibility()
 
 local Library = {}
 
-local Data = game:GetService("HttpService"):JSONDecode(http_request({Url="https://raw.githubusercontent.com/Jack1214060/Jayhub_Source/Master/Data.json",Method="GET"}).Body)
+local Data = '{"version": "0.0.0", "discord": "https://discord.gg/JeTzZsDNWN"}'
 
 function Library:CreateMain()
 
